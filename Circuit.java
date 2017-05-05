@@ -32,17 +32,6 @@ public class Circuit {
 
 		// Input of the form: Current state A, Current State B, Input, Next State A, Next State B}
 
-		/*		int[][] input = {
-				{0,0,0,1,1},
-				{0,0,1,0,1},
-				{0,1,0,0,0},
-				{0,1,1,1,0},
-				{1,0,0,0,1},
-				{1,0,1,1,1},
-				{1,1,0,1,0},
-				{1,1,1,0,0}
-		};*/
-
 		int[][] input = readInput();
 
 		int[][] jkValues = init(input); // Initialize JK output array to zeros. 
